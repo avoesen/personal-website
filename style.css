@@ -1,7 +1,8 @@
 
-.body { 
+body { 
     font-family: Helvetica, sans-serif;
-    margin-left: auto}
+    margin-left: auto
+  }
 
 h1 {
   text-align: center; 
@@ -23,12 +24,8 @@ h1 {
     background-color: #ddd;
     color: black;
   }
-  .topnav a.active {
-    background-color: #04AA6D;
-    color: white;
-  }
 
-  .social-media {
+.social-media {
     float: left;
     margin-left: auto;
     margin-right: auto;
@@ -39,7 +36,13 @@ h1 {
 footer {
   text-align: center;
 }
-.article {
+.test {
+  background-color: #c5c5c5 ;
+  text-align: center; 
+  border: 6px dotted;
+}  
+
+.text {
     float: left;
     margin-right: auto;
     padding: 20px;
