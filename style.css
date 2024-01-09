@@ -1,11 +1,15 @@
 
 .body { 
     font-family: Helvetica, sans-serif;
-    text-align: center;}
+    margin-left: auto}
 
+h1 {
+  text-align: center; 
+}    
 .topnav {
     background-color: #c5c5c5;
     overflow: hidden;
+
   }
   .topnav a {
     float: left;
@@ -32,10 +36,11 @@
     display: flex;
     justify-content: space-around;
   }
-
-  .article {
+footer {
+  text-align: center;
+}
+.article {
     float: left;
-    margin-left: auto;
     margin-right: auto;
     padding: 20px;
     display: flex;
