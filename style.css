@@ -1,19 +1,18 @@
 
 body { 
     font-family: Helvetica, sans-serif;
-    margin-left: auto
+    margin-left: auto;
+    text-align: center;
   }
-
-h1 {
-  text-align: center; 
-}    
+   
 .topnav {
     background-color: #c5c5c5;
     overflow: hidden;
-
   }
   .topnav a {
-    float: left;
+    float: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
     color: #f2f2f2;
     text-align: center;
     padding: 14px 16px;
@@ -36,12 +35,6 @@ h1 {
 footer {
   text-align: center;
 }
-.test {
-  background-color: #c5c5c5 ;
-  text-align: center; 
-  border: 6px dotted;
-}  
-
 .text {
     float: left;
     margin-right: auto;
@@ -49,3 +42,13 @@ footer {
     display: flex;
     justify-content: space-around;
   }
+.test {
+  background-color: #c5c5c5 ;
+  box-sizing: border-box; 
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center; 
+  border: 6px dotted;
+  }  
+
+  
