@@ -1,14 +1,13 @@
 
 body { 
     font-family: Helvetica, sans-serif;
-    margin-left: auto;
-    text-align: center;
+    margin: 20px; 
   }
    
 h1 {
-  width: 400px;
   background-color: lightgrey;
   color: white;
+  text-shadow: 3px;
 }
   .navigation {
     overflow: hidden;
@@ -37,30 +36,27 @@ h1 {
     display: flex;
     justify-content: space-around;
   }
-footer {
-  text-align: center;
+p {
+  text-align: justify;
 }
-.picture1 {
-  width: 400px;
-}
+
 header {
   display: flex; 
   justify-content: space-around;
   position: sticky;
+  background-color: lightgrey;
+  z-index: 1; 
 }
 .text {
-    float: left;
-    margin-right: auto;
-    padding: 20px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
   }
-.phone {
+.footer {
   background-color: lightgrey ;
-  box-sizing: border-box;
-  margin: auto; 
-  text-align: center; 
-  border: 6px dotted;
+  border-radius: 15px;
+  display: flex; 
+  margin: 20px; 
+  border: 2px dotted lightcoral;
   }  
 
   
