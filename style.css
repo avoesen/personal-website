@@ -8,6 +8,8 @@ h1 {
   background-color: lightgrey;
   color: white;
   text-shadow: 3px;
+  text-align: left;
+  margin-left: 20px;
 }
   .navigation {
     overflow: hidden;
@@ -42,7 +44,7 @@ p {
 
 header {
   display: flex; 
-  justify-content: space-around;
+  justify-content: space-between;
   position: sticky;
   background-color: lightgrey;
   z-index: 1; 
