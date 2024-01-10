@@ -5,21 +5,26 @@ body {
     text-align: center;
   }
    
-.topnav {
-    background-color: #c5c5c5;
+h1 {
+  width: 400px;
+  background-color: lightgrey;
+  color: white;
+}
+  .navigation {
     overflow: hidden;
+    display: flex; 
   }
-  .topnav a {
+  .navigation a {
     float: none;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin:auto;
+    background-color: lightgrey;
     color: #f2f2f2;
-    text-align: center;
+    text-align: space-between;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
   }
-  .topnav a:hover {
+  .navigation a:hover {
     background-color: #ddd;
     color: black;
   }
@@ -35,6 +40,14 @@ body {
 footer {
   text-align: center;
 }
+.picture1 {
+  width: 400px;
+}
+header {
+  display: flex; 
+  justify-content: space-around;
+  position: sticky;
+}
 .text {
     float: left;
     margin-right: auto;
@@ -42,11 +55,10 @@ footer {
     display: flex;
     justify-content: space-around;
   }
-.test {
-  background-color: #c5c5c5 ;
-  box-sizing: border-box; 
-  margin-top: 50px;
-  margin-bottom: 50px;
+.phone {
+  background-color: lightgrey ;
+  box-sizing: border-box;
+  margin: auto; 
   text-align: center; 
   border: 6px dotted;
   }  
