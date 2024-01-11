@@ -16,8 +16,6 @@ h1 {
   border-radius: 400px;
   width: 200px;
   height: 200px;
-  margin: 20px;
-
 }
   .navigation {
     overflow: hidden;
@@ -39,8 +37,9 @@ h1 {
   }
 .leftwrap{
   background-color: #ddd;
-  margin-top: 20px;
-  padding: 20px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  padding: 30px;
   text-align: center;
   border-radius: 10px;
 
@@ -55,6 +54,7 @@ h1 {
     background-color: #ddd;
     border-radius: 15px;
     width: 100%;
+    margin-bottom: 30px;
   }
 
 header {
@@ -81,14 +81,16 @@ header {
   margin-left: 20px;
   width:100%;
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-around;
+  align-items: space-around;
   flex-wrap: wrap;
-
+  position: relative;
 }
 
 .picture1 {
-  margin-bottom: 20px;
-  margin-right:20px;
-
+  padding: 20px;
+  margin-right:;
+  position: ;
+  top: ;
 }
   
