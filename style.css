@@ -3,6 +3,7 @@ body {
     font-family: 'Courier New', Courier, monospace;
     margin: 20px; 
     background-color: #f5f3f1;
+    position:relative;
   }
    
 h1 {
@@ -70,15 +71,18 @@ h1 {
 header {
   display: flex;
   align-self: center;
-  position: sticky;
   z-index: 1; 
   width: 100%;
+  background-color: #f5f3f1;
+  position: fixed;
+  top: 0; 
+  margin-left: 0px;
 }
 .text {
     display: flex;
     justify-content: space-between;
     position: relative;
-
+    top: 20px;
   }
 .footer {
   display: flex; 
@@ -97,7 +101,7 @@ header {
   position: relative;
 }
 .button{
-  margin:20px;
+  padding:20px;
 }
 .picture1 {
   padding: 20px;
