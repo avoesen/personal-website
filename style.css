@@ -1,25 +1,33 @@
 
 body { 
-    font-family: Helvetica, sans-serif;
+    font-family: 'Courier New', Courier, monospace;
     margin: 20px; 
+    background-color: #f5f3f1;
   }
    
 h1 {
-  background-color: lightgrey;
+  background-color: #dcd6d0;
   color: white;
   text-shadow: 3px;
   text-align: left;
   margin-left: 20px;
 }
+.logo{
+  border-radius: 400px;
+  width: 200px;
+  height: 200px;
+  margin: 20px;
+
+}
   .navigation {
     overflow: hidden;
     display: flex; 
+    position: sticky;
   }
   .navigation a {
     float: none;
     margin:auto;
-    background-color: lightgrey;
-    color: #f2f2f2;
+    color: black;
     text-align: space-between;
     padding: 14px 16px;
     text-decoration: none;
@@ -29,7 +37,14 @@ h1 {
     background-color: #ddd;
     color: black;
   }
+.leftwrap{
+  background-color: #ddd;
+  margin-top: 20px;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
 
+}
 .social-media {
     float: left;
     margin-left: auto;
@@ -37,28 +52,43 @@ h1 {
     padding: 20px;
     display: flex;
     justify-content: space-around;
+    background-color: #ddd;
+    border-radius: 15px;
+    width: 100%;
   }
-p {
-  text-align: justify;
-}
 
 header {
   display: flex; 
   justify-content: space-between;
   position: sticky;
-  background-color: lightgrey;
   z-index: 1; 
+  width: 100%;
 }
 .text {
     display: flex;
     justify-content: space-between;
+    position: relative;
+
   }
 .footer {
-  background-color: lightgrey ;
-  border-radius: 15px;
   display: flex; 
   margin: 20px; 
   border: 2px dotted lightcoral;
   }  
 
+.pictures {
+  margin-top: 20px;
+  margin-left: 20px;
+  width:100%;
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+
+}
+
+.picture1 {
+  margin-bottom: 20px;
+  margin-right:20px;
+
+}
   
