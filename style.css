@@ -1,11 +1,10 @@
+body {
+  font-family: "Courier New", Courier, monospace;
+  margin: 20px;
+  background-color: #f5f3f1;
+  position: relative;
+}
 
-body { 
-    font-family: 'Courier New', Courier, monospace;
-    margin: 20px; 
-    background-color: #f5f3f1;
-    position:relative;
-  }
-   
 h1 {
   background-color: #dcd6d0;
   color: white;
@@ -13,100 +12,95 @@ h1 {
   text-align: left;
   margin-left: 20px;
 }
-.logo{
-  width:40px;
+.logo {
+  width: 40px;
   height: 40px;
   padding: 14px 16px;
 }
 @media screen {
-  width:50px; 
+  width: 50px;
 }
 
-.logo a:hover{
-  width:50px;
+.logo a:hover {
+  width: 50px;
   height: 50px;
   align-self: center;
 }
 
-  .navigation {
-    overflow: hidden;
-    display: flex; 
-    position: sticky;
-  }
-  .navigation a {
-    float: none;
-    margin:auto;
-    color: black;
-    text-align: space-between;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-  }
-  .navigation a:hover {
-    background-color: #ddd;
-    color: black;
-  }
-.leftwrap{
+.navigation {
+  overflow: hidden;
+  display: flex;
+  position: sticky;
+}
+.navigation a {
+  float: none;
+  margin: auto;
+  color: black;
+  text-align: space-between;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.navigation a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.leftwrap {
   background-color: #ddd;
   margin-top: 40px;
   margin-bottom: 20px;
   padding: 30px;
   text-align: center;
   border-radius: 10px;
-
 }
 .social-media {
-    float: left;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 20px;
-    display: flex;
-    justify-content: space-around;
-    background-color: #ddd;
-    border-radius: 15px;
-    width: 100%;
-    margin-bottom: 30px;
-  }
+  float: left;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  background-color: #ddd;
+  border-radius: 15px;
+  width: 100%;
+  margin-bottom: 30px;
+}
 
 header {
   display: flex;
   align-self: center;
-  z-index: 1; 
+  z-index: 1;
   width: 100%;
   background-color: #f5f3f1;
   position: fixed;
-  top: 0; 
+  top: 0;
   margin-left: 0px;
 }
 .text {
-    display: flex;
-    justify-content: space-between;
-    position: relative;
-    top: 20px;
-  }
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  top: 20px;
+}
 .footer {
-  display: flex; 
-  margin: 20px; 
+  display: flex;
+  margin: 20px;
+  margin-left: 20px;
   border: 2px dotted lightcoral;
-  }  
+}
 
 .pictures {
   margin-top: 20px;
   margin-left: 20px;
-  width:100%;
-  display: flex;
-  justify-content: space-around;
-  align-items: space-around;
-  flex-wrap: wrap;
-  position: relative;
+  display: grid;
+  grid: auto-flow / 1fr 1fr 1fr;
 }
-.button{
-  padding:20px;
+.button {
+  padding: 20px;
 }
 .picture1 {
   padding: 20px;
-  margin-right:;
+  margin-right: ;
   position: ;
   top: ;
 }
-  
